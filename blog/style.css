@@ -37,3 +37,15 @@ a {
 span{
     font-weight: bold;
 }
+
+.grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.grid{
+    margin: 0;
+    padding: 0;
+}
