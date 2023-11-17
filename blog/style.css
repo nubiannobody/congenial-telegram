@@ -4,7 +4,9 @@ h1 {
 }
 
 h2 {
-    color:pink;
+    background: linear-gradient(to right, darkcyan, orange, rgb(172, 8, 167), rgb(25, 174, 184), blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 30px;
     text-align: center;
 }
