@@ -58,3 +58,16 @@ img {
     border-radius: 50%;
     
 }
+
+.topnav{
+    background: linear-gradient(to right, darkcyan, orange, rgb(172, 8, 167), rgb(25, 174, 184), blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+.topnav a {
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
