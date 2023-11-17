@@ -1,0 +1,39 @@
+h1 {
+    color:blueviolet;
+}
+
+h2 {
+    color:pink;
+    font-size: 30px;
+}
+
+h3 {
+    color:palevioletred;
+}  
+
+p {
+    background: linear-gradient(to right, darkcyan, orange, rgb(172, 8, 167), rgb(25, 174, 184), blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    border: 10px dotted;
+    padding: 10px 10px 10px 10px;
+}
+
+li {
+    color: darkcyan;
+    font-size: 30px;
+    list-style-type: square;
+}
+
+body {
+    background-color: papayawhip;
+}
+
+a {
+    font-size: 30px;
+}
+
+span{
+    font-weight: bold;
+}
