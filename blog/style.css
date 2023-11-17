@@ -1,14 +1,17 @@
 h1 {
     color:blueviolet;
+    text-align: center;
 }
 
 h2 {
     color:pink;
     font-size: 30px;
+    text-align: center;
 }
 
 h3 {
     color:palevioletred;
+    text-align: center;
 }  
 
 p {
@@ -16,8 +19,7 @@ p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 30px;
-    border: 10px dotted;
-    padding: 10px 10px 10px 10px;
+    text-align: center;
 }
 
 li {
@@ -45,7 +47,12 @@ span{
     column-gap: 10px;
 }
 
-.grid{
-    margin: 0;
-    padding: 0;
+.grid-picture{
+    margin: 30;
+    padding: 30;
+}
+
+img {
+    border-radius: 50%;
+    
 }
