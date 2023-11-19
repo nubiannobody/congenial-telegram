@@ -113,6 +113,14 @@ img {
     font-size: 30px;
 }
 
+.topnav a:hover {
+    border-bottom: 3px solid black;
+}
+
+.topnav a.active {
+    border-bottom: 3px solid pink;
+}
+
 .prettycolors {
     background: linear-gradient(to right, darkcyan, orange, rgb(172, 8, 167), rgb(25, 174, 184), blue, violet);
     -webkit-background-clip: text;
