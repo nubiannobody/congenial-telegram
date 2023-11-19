@@ -1,4 +1,4 @@
-@keyframes rainbow{
+@keyframes rainbow {
     100%,
     0% {
         color: rgb(255, 0, 0);
@@ -96,8 +96,8 @@ span{
 }
 
 img {
-    border-radius: 50%;
-    
+    border-radius: 50%;   
+    border: solid black 5px; 
 }
 
 .topnav{
@@ -111,4 +111,12 @@ img {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 30px;
+}
+
+.prettycolors {
+    background: linear-gradient(to right, darkcyan, orange, rgb(172, 8, 167), rgb(25, 174, 184), blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    text-align: center;
 }
